@@ -26,7 +26,7 @@ The project is under Microsoft Reciprocal License [(MS-RL)](http://www.opensourc
 
 List of technologies, frameworks and libraries used for implementation:
 
-- [.NET 6](https://dotnet.microsoft.com/download/dotnet/6.0) (platform). Note for Visual Studio users: **VS 2022** is required.
+- [.NET 10](https://dotnet.microsoft.com/download/dotnet/10.0) (platform). Note for Visual Studio users: **VS 2026** is required.
 - [Microsoft.CSharp](Microsoft.CSharp) (Autofac is an IoC container for Microsoft .NET.)
 - [Microsoft.Extensions.Logging.Abstractions](https://www.nuget.org/packages/Microsoft.Extensions.Logging.Abstractions/) (Logging abstractions for Microsoft.Extensions.Logging.)
 - [Polly](https://www.nuget.org/packages/Polly) (Polly is a library that allows developers to express resilience and transient fault handling policies such as Retry)

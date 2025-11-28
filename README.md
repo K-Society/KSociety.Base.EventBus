@@ -17,7 +17,7 @@ Its advanced features are ideal for Domain Driven Design (DDD), Command Query Re
 
 ## Prerequisites
 
-Visual Studio 2022 with the following installed:
+Visual Studio 2026 with the following installed:
 
 | Workloads |
 | :-------- |
@@ -133,7 +133,7 @@ The project is under Microsoft Reciprocal License [(MS-RL)](http://www.opensourc
 
 List of technologies, frameworks and libraries used for implementation:
 
-- [.NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) (platform). Note for Visual Studio users: **VS 2022** is required.
+- [.NET 10](https://dotnet.microsoft.com/download/dotnet/10.0) (platform). Note for Visual Studio users: **VS 2026** is required.
 - [Autofac](https://autofac.org/) (Inversion of Control Container)
 - [AutoMapper](https://automapper.org/) (A convention-based object-object mapper)
 - [CsvHelper](https://joshclose.github.io/CsvHelper/) (A .NET library for reading and writing CSV files)
