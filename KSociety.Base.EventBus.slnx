@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/01. Infrastructure Sub Layer/" />
+  <Folder Name="/01. Infrastructure Sub Layer/KSocietyBaseEventBus/">
+    <Project Path="src/01/KSocietyBaseEventBus/KSociety.Base.EventBus/KSociety.Base.EventBus.csproj" />
+    <Project Path="src/01/KSocietyBaseEventBus/KSociety.Base.EventBusRabbitMQ/KSociety.Base.EventBusRabbitMQ.csproj" />
+  </Folder>
+  <Folder Name="/01. Infrastructure Sub Layer/KSocietyBaseEventBus/Test/">
+    <Project Path="src/01/KSocietyBaseEventBus/Test/KSociety.Base.EventBus.Test/KSociety.Base.EventBus.Test.csproj">
+      <Build Solution="Release|*" Project="false" />
+    </Project>
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="BuildKSociety.Base.EventBus.cmd" />
+    <File Path="global.json" />
+    <File Path="NuGet.config" />
+    <File Path="README.MD" />
+    <File Path="version.json" />
+  </Folder>
+</Solution>
