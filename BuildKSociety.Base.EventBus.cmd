@@ -4,9 +4,9 @@
 
 @if "%VCToolsVersion%"=="" call :StartDeveloperCommandPrompt || exit /b
 
-msbuild KSociety.Base.EventBus.sln -t:clean;restore -p:Configuration=%_C% || exit /b
+msbuild KSociety.Base.EventBus.slnx -t:clean;restore -p:Configuration=%_C% || exit /b
 
-msbuild KSociety.Base.EventBus.sln -p:Configuration=%_C% || exit /b
+msbuild KSociety.Base.EventBus.slnx -p:Configuration=%_C% || exit /b
 
 goto LExit
 
